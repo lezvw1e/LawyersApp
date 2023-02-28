@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">lawyerApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Регистрация</string>
+    <string name="email">Почта</string>
+    <string name="or">или</string>
+    <string name="settings">Настройки</string>
+    <string name="language">Язык</string>
+    <string name="russia">Русский</string>
+    <string name="uzbek">Узбекский</string>
+    <string name="english">Английский</string>
+    <string name="kyrgyz">Кыргызский</string>
+    <string name="change">Изменить</string>
+    <string name="admin">Админ</string>
+    <string name="main">Главная</string>
+    <string name="about_app">О приложении</string>
+    <string name="inter">Войти</string>
+    <string name="save">Сохранить</string>
+    <string name="title">текст</string>
+    <string name="des">Описание</string>
+    <string name="setting">Настройки</string>
+    <string name="home">Дом</string>
+    <string name="Documents">Документы</string>
+    <string name="admin1">Админ</string>
+    <string name="use">Использовать</string>
+    <string name="programmers">Программисты</string>
+    <string name="lawyers">Юристы</string>
+    <string name="documents">Документы</string>
+    <string name="support">Поддержка</string>
+    <string name="out_of_acc">Выйти с аккаунта</string>
+    <string name="choose">Выбрать</string>
+    <string name="cancel">Назад</string>
+
+    <string name="go_to_other_documents">Перейти ко всем документам</string>
+    <string name="call">Связаться</string>
+    <string name="lawyer">Юрист</string>
+    <string name="work_experience">Опыт работы :</string>
+    <string name="cpecial">Специализация:</string>
+    <string name="all_lawyers">Все юристы</string>
+
+
+    <string name="choose_docu">Выберите документ</string>
+    <string name="dosudebnoe">* Досудебное производство</string>
+    <string name="rastarjenie">* Исковое заявление о расторжение брака</string>
+    <string name="obrashenie">* Обращение в суд</string>
+
+    <string name="name_1" tools:ignore="MissingTranslation">Имя</string>
+    <string name="cellphone">Номер телефона</string>
+    <string name="last_name">Фамилия</string>
+    <string name="code">Code</string>
+    <string name="sms">Мы отправили вам код по SMS пожалуйста введите его сюда</string>
+    <string name="sms_2">Если не пришло SMS то проверьте правильно ли вы ввели номер телефона</string>
+    <string name="next">Next</string>
+    <string name="if_sms">Если код не пришел в течении</string>
+    <string name="c_Askat">Ильяcбек уулу Аскат</string>
+    <string name="urmat">Асаналиев Урмат</string>
+    <string name="repeate_cell">Повторите номер телефона</string>
+    <string name="next_">Next</string>
+    <string name="inter_this" translatable="false">Нажмите сюда</string>
+    <string name="pass_and_email_not_empty" translatable="false">Пароль или почта не должны быть пустыми!</string>
+    <string name="wellcome" translatable="false">Добро пожаловать</string>
+    <string name="pole_not_empty" translatable="false">Поля не должны быть пустыми!</string>
+    <string name="repeat_nomer_not_repeat" translatable="false">Повторный номер должен быть похожим на оригинал!</string>
+    <string name="services">Услуги</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lawyersApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Каттоо</string>
+    <string name="email">кат</string>
+    <string name="or">же</string>
+    <string name="settings">Орнотуулар</string>
+    <string name="language">Тил</string>
+    <string name="russia">Орусча</string>
+    <string name="uzbek">Озбекче</string>
+    <string name="english">Англисче</string>
+    <string name="kyrgyz">Кыргызча</string>
+    <string name="change">Алмаштыруу</string>
+    <string name="admin">Админ</string>
+    <string name="main">Башкы бет</string>
+    <string name="about_app">Колдонмо жөнүндө</string>
+    <string name="inter">Кирүү</string>
+    <string name="save">Сактоо</string>
+    <string name="title">текст</string>
+    <string name="des">Баяндоо</string>
+    <string name="setting">орнотуулар</string>
+    <string name="home">Үй</string>
+    <string name="Documents">Документтер</string>
+    <string name="admin1">админ</string>
+    <string name="use">Колдонуу</string>
+    <string name="programmers">Программисттер</string>
+    <string name="lawyers">Юристтер</string>
+    <string name="documents">Документтер</string>
+    <string name="support">Жардам</string>
+    <string name="out_of_acc">Аккаунттан чыгуу</string>
+    <string name="choose">Тандоо</string>
+    <string name="cancel">Артка</string>
+
+    <string name="go_to_other_documents">Бардык документтерге өтүңүз</string>
+    <string name="call">Байланыш</string>
+    <string name="lawyer">Юрист</string>
+    <string name="work_experience">Иш тажрыйбасы :</string>
+    <string name="cpecial">Адистик:</string>
+    <string name="all_lawyers">Бардык юристтер</string>
+
+
+    <string name="choose_docu">Документти тандаңыз</string>
+    <string name="dosudebnoe">* Сотко чейинки өндүрүш</string>
+    <string name="rastarjenie">* Никени бузуу жөнүндө доо арызы</string>
+    <string name="obrashenie">* Сотко кайрылуу</string>
+
+    <string name="name_1">Ат</string>
+    <string name="cellphone">Телефон номер</string>
+    <string name="last_name">Фамилия</string>
+    <string name="code">Код</string>
+    <string name="sms">Биз Сизге Код жөнөттүк сураныч, аны бул жерге киргизиңиз</string>
+    <string name="sms_2">Эгер жок болсо, анда туура тел номерин киргизген болсо, текшерүү</string>
+    <string name="next">Кийинки</string>
+    <string name="if_sms">Эгер код келип чыкпаса</string>
+    <string name="c_Askat">Ильяcбек уулу Аскат</string>
+    <string name="urmat">Асаналиев Урмат</string>
+    <string name="repeate_cell">Телефон номерин кайталаңыз</string>
+    <string name="next_">Кийинки</string>
+    <string name="inter_this" translatable="false">Жерди басыңыз</string>
+    <string name="pass_and_email_not_empty" translatable="false">Сырсөз же почта бош болбошу керек!</string>
+    <string name="wellcome" translatable="false">Биздин кызматтар</string>
+    <string name="pole_not_empty" translatable="false">Талаалар бош болбошу керек!</string>
+    <string name="repeat_nomer_not_repeat" translatable="false">Кайталанган номер түпнускага окшош болушу керек!</string>
+    <string name="services">Кызматтар</string>
+</resources>

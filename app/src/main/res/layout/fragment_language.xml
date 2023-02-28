@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".ui.fragment.languages.LanguageFragment">
+
+    <TextView
+        android:id="@+id/txt_languages"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="@color/gold"
+        android:text="@string/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg_lan"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_use"
+        app:layout_constraintTop_toBottomOf="@id/txt_languages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:buttonTint="@color/gold"
+            android:id="@+id/btn_uzbek"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/gold"
+            android:text="@string/uzbek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <RadioButton
+            android:layout_marginVertical="12dp"
+            android:id="@+id/txt_russia"
+            android:textColor="@color/gold"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:text="@string/russia"
+            android:buttonTint="@color/gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <RadioButton
+            android:id="@+id/txt_english"
+            android:buttonTint="@color/gold"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/gold"
+            android:text="@string/english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <RadioButton
+            android:layout_marginTop="12dp"
+            android:id="@+id/txt_kyrgyz"
+            android:buttonTint="@color/gold"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/gold"
+            android:text="@string/kyrgyz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="12dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/gold"
+        android:text="@string/use"
+        android:id="@+id/btn_use"
+        android:layout_marginBottom="28dp"
+        android:layout_marginHorizontal="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lawyersApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Ro\'yxatdan o\'tish</string>
+    <string name="email">pochta</string>
+    <string name="or">yoki</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="language">Til</string>
+    <string name="russia">Русский</string>
+    <string name="uzbek">Uzbek</string>
+    <string name="english">English</string>
+    <string name="kyrgyz">Кыргыз</string>
+    <string name="change">O\'zgartirish</string>
+    <string name="admin">Admin</string>
+    <string name="main">Uy</string>
+    <string name="about_app">Ilova haqida</string>
+    <string name="inter">Kirish</string>
+    <string name="save">Saqlash</string>
+    <string name="title">matn</string>
+    <string name="des">ta\'rif</string>
+    <string name="setting">Sozlamalar</string>
+    <string name="home">Uy</string>
+    <string name="Documents">Hujjatlar</string>
+    <string name="admin1">Admin</string>
+    <string name="use">Foydalanish</string>
+    <string name="programmers">Dasturchilar</string>
+    <string name="lawyers">Advokatlar</string>
+    <string name="documents">Hujjatlar</string>
+    <string name="support">Yordam</string>
+    <string name="out_of_acc">Hisobdan chiqish</string>
+    <string name="choose">Tanlang</string>
+    <string name="cancel">Orqaga</string>
+
+    <string name="go_to_other_documents">Barcha hujjatlarga o\'ting</string>
+    <string name="call">Aloqa</string>
+    <string name="lawyer">Huquqshunos advokat</string>
+    <string name="work_experience">Ish tajribasi :</string>
+    <string name="cpecial">Mutaxassislik :</string>
+    <string name="all_lawyers">Barcha advokatlar</string>
+
+
+    <string name="choose_docu">Hujjatni tanlang</string>
+    <string name="dosudebnoe">* Sudgacha ish yuritish</string>
+    <string name="rastarjenie">* Ajralish uchun da\'vo arizasi</string>
+    <string name="obrashenie">* Sudga murojaat qilish</string>
+
+    <string name="name_1">Ism</string>
+    <string name="cellphone">Telefon raqami</string>
+    <string name="last_name">Familiya</string>
+    <string name="code">Сode</string>
+    <string name="sms">Sizga SMS orqali kodni yubordik iltimos, uni bu erga kiriting</string>
+    <string name="sms_2">Agar SMS kelmasa, telefon raqamini to\'g\'ri kiritganingizni tekshiring</string>
+    <string name="next">Keyingi</string>
+    <string name="if_sms">Agar kod joriy vaqtda kelmasa</string>
+    <string name="c_Askat">Ilyosbek uulu Askat</string>
+    <string name="urmat">Urmat Asanaliev</string>
+    <string name="repeate_cell">Telefon raqamini takrorlang</string>
+    <string name="next_">Keyingi</string>
+    <string name="inter_this">Bu yerni bosing</string>
+    <string name="pass_and_email_not_empty">Parol yoki pochta bo\'sh bo\'lmasligi kerak!</string>
+    <string name="wellcome">Xush kelibsiz</string>
+    <string name="pole_not_empty">Maydonlar bo\'sh bo\'lmasligi kerak!</string>
+    <string name="repeat_nomer_not_repeat">Qayta raqam asl nusxaga o\'xshash bo\'lishi kerak!</string>
+    <string name="services">Xizmatlar</string>
+</resources>

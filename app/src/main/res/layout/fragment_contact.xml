@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.details.ContactFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_margin="20dp"
+        android:background="@drawable/gold_bc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_name"
+            android:background="@drawable/bg_edit"
+            app:endIconMode="clear_text"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:layout_constraintTop_toTopOf="parent"
+            android:hint="@string/name_1"
+            android:textColorHint="#40DBBA7B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_name_ed"
+                android:textColor="@color/gold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:endIconMode="clear_text"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edit"
+            android:textColorHint="#40DBBA7B"
+            android:hint="@string/cellphone"
+            android:id="@+id/ed_cellphone"
+            app:layout_constraintStart_toStartOf="@id/ed_surname"
+            app:layout_constraintEnd_toEndOf="@id/ed_surname"
+            app:layout_constraintTop_toBottomOf="@id/ed_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_cellphone_ed"
+                android:textColor="@color/gold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ed_email"
+                app:layout_constraintStart_toStartOf="@id/ed_email"
+                app:layout_constraintTop_toBottomOf="@id/ed_email" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:endIconMode="clear_text"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edit"
+            android:textColorHint="#40DBBA7B"
+            android:hint="@string/last_name"
+            android:id="@+id/ed_surname"
+            app:layout_constraintStart_toStartOf="@id/ed_name"
+            app:layout_constraintEnd_toEndOf="@id/ed_name"
+            app:layout_constraintTop_toBottomOf="@id/ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_surname_ed"
+                android:textColor="@color/gold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ed_email"
+                app:layout_constraintStart_toStartOf="@id/ed_email"
+                app:layout_constraintTop_toBottomOf="@id/ed_email" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_contact"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/gold"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:text="@string/call"
+        app:layout_constraintEnd_toEndOf="@id/container"
+        app:layout_constraintTop_toBottomOf="@id/container"
+        app:layout_constraintStart_toEndOf="@id/btn_back"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        app:layout_constraintEnd_toStartOf="@id/btn_contact"
+        android:id="@+id/btn_back"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/gold"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:text="@string/cancel"
+        app:layout_constraintStart_toStartOf="@id/container"
+        app:layout_constraintTop_toBottomOf="@id/container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

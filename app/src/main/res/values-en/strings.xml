@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lawyersApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="or">or</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="russia">Russian</string>
+    <string name="uzbek">Uzbek</string>
+    <string name="english">English</string>
+    <string name="kyrgyz">Kyrgyz</string>
+    <string name="change">Change</string>
+    <string name="admin">Admin</string>
+    <string name="main">Main</string>
+    <string name="about_app">About app</string>
+    <string name="inter">Inter</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+    <string name="des">Description</string>
+    <string name="setting">Setting</string>
+    <string name="home">Home</string>
+    <string name="Documents">Documents</string>
+    <string name="admin1">Admin</string>
+    <string name="use">Use</string>
+    <string name="programmers">Developers</string>
+    <string name="lawyers">Lawyers</string>
+    <string name="documents">Documents</string>
+    <string name="support">Supports</string>
+    <string name="out_of_acc">Sign out</string>
+    <string name="choose">Choose</string>
+    <string name="cancel">Back</string>
+    <string name="go_to_other_documents">Go to all documents</string>
+    <string name="call">Contact</string>
+    <string name="lawyer">Lawyer</string>
+    <string name="work_experience">Work experience :</string>
+    <string name="cpecial">Specialization:</string>
+    <string name="all_lawyers">All lawyers</string>
+    <string name="choose_docu">Select a document</string>
+    <string name="dosudebnoe">* Pre-trial proceedings</string>
+    <string name="rastarjenie">* Statement of claim for divorce</string>
+    <string name="obrashenie">* Appeal to the court</string>
+
+
+    <string name="name_1">Name</string>
+    <string name="cellphone">Cellphone</string>
+    <string name="last_name">Last name</string>
+    <string name="code">Code</string>
+    <string name="sms">We have sent you a code via SMS please enter it here</string>
+    <string name="sms_2">If you have not received an SMS, then check if you entered the phone number correctly</string>
+    <string name="next">Next</string>
+    <string name="if_sms">If the code did not arrive within</string>
+    <string name="c_Askat">Ilyasbek uulu Askat</string>
+    <string name="urmat">Asanaliev Urmat</string>
+    <string name="repeate_cell">Repeat the phone number</string>
+    <string name="next_">Next</string>
+    <string name="inter_this">Click here</string>
+    <string name="pass_and_email_not_empty">Password or email should not be empty!</string>
+    <string name="wellcome">Welcome</string>
+    <string name="pole_not_empty">The fields should not be empty!</string>
+    <string name="repeat_nomer_not_repeat">The repeated number must be similar to the original!</string>
+    <string name="services">Services</string>
+</resources>

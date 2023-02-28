@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_margin="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/gold"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Регистрация юридических лиц"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/txt_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="12dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:text="Регистрация коммерческих и некоммерческих организаций, а также филиалов и представительств стала одним из основных направлений деятельности нашей компании. Поэтому наши юристы всегда в курсе последних изменений законодательства в этой области и знают все особенности процедур, связанных с регистрацией, перерегистрацией, реорганизацией и ликвидацией организаций."
+        app:layout_constraintTop_toBottomOf="@id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
